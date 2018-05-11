@@ -1,0 +1,10 @@
+CREATE DATABASE bids_DB;
+
+USE bids_DB;
+
+CREATE TABLE bids (
+  id INT NOT NULL AUTO_INCREMENT,
+  product VARCHAR(45) NULL,
+  bid DECIMAL(10,2) NULL,
+  PRIMARY KEY (id)
+);
